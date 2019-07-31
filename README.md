@@ -1,24 +1,14 @@
-# README
+# Lunch choices
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+this is a ruby on rails app that lets me and any other people willing to put their lunch into the universe of randomness choose a lunch option in Chinatown.
 
-Things you may want to cover:
+Migrations I need:
+- Restaurants - can have many Categories
+- Categories - can have many Restaurants
 
-* Ruby version
+Functionality:
+The user presses a button and the system randomly selects a lunch Restaurant.
+OR
+The user selects Categories they want to filter, and the system makes a new list that randomly selects a Restaurant
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This is just for fun, guys.
